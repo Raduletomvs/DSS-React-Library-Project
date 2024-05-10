@@ -1,0 +1,136 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+  }
+  
+  .footer {
+    background-color: #030000;
+    color: #fff;
+    padding: 1%;
+    text-align: center;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #030000;
+    color: #fff;
+    padding: 1%;
+    text-align: center;
+    height: 70px;
+}
+
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 10vh;
+  }
+  
+  .library-container {
+    display: flex;
+    flex: 1;
+    padding: 0%;
+  }
+  
+  .content-list {
+    width: 50%; 
+    background-color: #fff;
+    padding: 2%; 
+    overflow-y: auto;
+    border-right: 2px solid #ccc;
+  }
+  
+  .content-details {
+    width: 50%; 
+    padding: 2%; 
+    background-color: #fff;
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  .book-list h2, .book-details h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .deleteButton {
+    background-color: #f44336;
+    padding: 10px 20px; 
+    color: white;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+  }
+  
+  .deleteButton:hover {
+    background-color: #d32f2f;
+  }
+  
+  input{
+    width: 50%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px; 
+    padding: 10px; 
+    box-sizing: border-box;
+  }
+  
+  #saveButton {
+    padding: 10px; 
+    background-color:#0a6ff4;
+    color: white;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+}
+
+#clearButton {
+    padding: 10px; 
+    background-color:#f4930a;
+    color: white;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+}
+
+#saveButton {
+    margin-right: 20px; 
+}
+
+  button:hover {
+    opacity: 0.85;
+  }
+  
+  footer {
+    padding: 1%;
+    background-color: #040404;
+    color: #fff;
+    text-align: center;
+  }
+
+  ul {
+    list-style: none;
+    padding: 10;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 1%; 
+    padding: 1%; 
+    border-bottom: 1px solid #ccc;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  li:hover {
+    background-color: #f9f9f9;
+  }
